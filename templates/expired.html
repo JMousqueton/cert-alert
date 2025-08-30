@@ -1,0 +1,13 @@
+<html>
+  <body style="font-family: Arial, sans-serif;">
+    <h2 style="color: red;">❌ TLS Certificate Expired</h2>
+    <p>
+      The TLS certificate for <strong>{{ sitename }}</strong> has expired.
+    </p>
+    <ul>
+      <li><b>Expiration date:</b> {{ not_after }}</li>
+      <li><b>Expired since:</b> {{ abs(days_left) }} day(s) ago</li>
+    </ul>
+    <p>Please replace the certificate immediately.</p>
+  </body>
+</html>
