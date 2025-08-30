@@ -1,0 +1,2 @@
+{ "sitename": "push.ransomware.live", "port": 443, "contact": "ops@ransomware.live", "enable": true },
+{ "sitename": "www.ransomware.live", "port": 443, "contact": "ops@ransomware.live", "enable": true }
